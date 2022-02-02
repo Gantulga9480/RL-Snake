@@ -1,0 +1,21 @@
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 177, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+
+WIDTH = 540
+HEIGHT = 600
+VELOCITY = 25
+SHAPE = VELOCITY - 1
+BOARD_COUNT = int((WIDTH - 40) / VELOCITY)
+FPS = 30
+
+TAIL = 3
+HEAD = 6
+FOOD = 9
+EMPTY = 0
+
+# 0: forward, 1: left, 2: right, 3: down
+ACTION_SPACE = [0, 1, 2, 3]
